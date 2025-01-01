@@ -25,7 +25,7 @@ while True:
         if text:
         
             try:
-                result = int(''.join(filter(str.isdigit, text)))
+                result = str(''.join(filter(str.isdigit, text)))
             except Exception as error:
                 result = None
         
